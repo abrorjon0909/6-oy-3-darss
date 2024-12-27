@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.conteiner{
+  max-width: 1440px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
+  margin: 0 auto;
+}
+.user__wrapper{
+  width: 500px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 50px auto;
+}
+.user__wrapper img{
+  object-fit: cover;
+  width: 100%;
+}
+.name{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.phone-email{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.region-zib{
+  border: 1px solid black;
+  width: 200px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.region-zib ul li::marker{
+  color: blue;
+}
+
